@@ -1,0 +1,103 @@
+
+
+    body {
+    /* font-family:  Helvetica, sans-serif; */
+    background-color: #f0f0f0;
+   
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/410/341/small/premium-security-cyber-digital-concept-abstract-technology-background-protect-system-innovation-for-business-illustration-vector.jpg);
+  
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    margin-top: 10%;
+}
+.btn-submit{
+    margin-left: 10px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #b8aeae;
+}
+
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+ .input-field input[type="username"],
+.input-field input[type="email"],
+.input-field input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eeebeb;
+    background-color: rgba(0, 0, 0, 0);
+}
+.input-field input[type="username"]:focus ,
+.input-field input[type="email"]:focus ,
+.input-field input[type="password"]:focus {
+border: 2px solid black;
+
+}
+.input-field label.placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 16px;
+    color: #f5f5f5;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+ .input-field input[type="username"]:focus + .placeholder, 
+.input-field input[type="email"]:focus + .placeholder,
+.input-field input[type="password"]:focus + .placeholder {
+    top: -10px;
+    font-size: 12px;
+    color: #ffffff;
+   
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fc1521;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #c40000;
+}
+
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
